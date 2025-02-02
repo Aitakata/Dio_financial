@@ -27,8 +27,7 @@ Modificar o relatório focando na experiência do usuário. leve em consideraç�
 * O estilo dos botões é livre!
 
 ## Arquivo
-A mudança do arquivo financial.pbix foi implementada no arquivo "relatorio criativo exp_usuario.pbix". Como é só um arquivo, evitei criar uma nova branch. Para quem for analisar, ambos os labs se encontram na mesma branch, mas con nomes diferentes.
-* relatorio criativo exp_usuario.pbix<br>
+A mudança do arquivo financial.pbix foi implementada no arquivo "relatorio criativo exp_usuario.pbix". Como é só um arquivo, evitei criar uma nova branch. Para quem for analisar, ambos os labs se encontram na mesma branch, mas con nomes diferentes: **Relatorio criativo exp_usuario.pbix**<br>
   Corresponde ao mesmo relatorio financeiro do lab anterior, mas agora levando em consideração a experiencia do usuario. Alguns pontos que vale a pena destacar:
   * botões de navegabilidade entre páginas (avançar, retroceder, homepage)
   * Navegador de página
@@ -39,3 +38,42 @@ A mudança do arquivo financial.pbix foi implementada no arquivo "relatorio cria
   * utilizaçao de marcadores (bookmark) 
 
 Nota: O relatório é composto por 3 páginas
+# Lab: Criando um Relatório Vendas e Lucros com Data Analytics com Power BI
+Neste lab foi solicitado uma nova versão de relatorio:<br>
+**Pontos a serem considerados**
+* Crie a página detalhes conforme mostrado no desafio de projeto
+* Pense na disposição dos visuais em como o cliente irá consumir o conteúdo
+* Dependendo da disposição dos visuais o número de páginas pode variar. Até duas páginas podem compor o que é pedido
+* Crie as medidas necessárias
+
+**Visuais que podem compor o relatório:**
+*	Visuais sobre os TOP3 Produtos
+*	Principais países em termos de vendas e/ou profit (ou outro campo)
+*	Gráfico de dispersão sobre Unidades vendidas e Vendas por mês
+*	Visuais de agrupamentos de dados
+*	Visuais de compartimentação dos dados
+
+Exemplo das páginas socilitadas:
+
+![image](https://github.com/user-attachments/assets/4ddb7bd7-b2e7-416f-827b-08c7850950e0)
+
+![image](https://github.com/user-attachments/assets/d2ce35ea-40b7-4225-87c3-a184822b7059)
+
+![image](https://github.com/user-attachments/assets/bc1af95b-c670-4fd2-9c09-16e2641b05d1)
+
+![image](https://github.com/user-attachments/assets/12221634-1010-4b2c-9575-4fb5917f18cc)
+
+![image](https://github.com/user-attachments/assets/42e53fce-6733-48f4-9dd6-bf7140306ea7)
+
+## Diretorios e Arquivos adicionados nessa branch
+* fundos (diretorio) - contém os arquivo para background das páginas e a página Home
+* ícones (diretorio) - contèm os ícones adcionados ao Power BI para utilização nas páginas
+* financial.xlsx - planilha utilizada como entraga para manipular e gerar os relatorios
+* sales_report_desafio_projeto.pbix - relatoiro gerado para responder ao desafio do lab.
+
+Nota: Além das páginas solicitadas foram geradas mais duas páginas, uma com o gráfico árvore hierarquico e outro com um indcador (gauge) usado como Dica de ferramento para outros gráficos temporais.
+
+
+
+
+
